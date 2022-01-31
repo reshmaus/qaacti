@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7118" started-at="2022-01-28T17:42:56Z" finished-at="2022-01-28T17:43:03Z">
+  <suite name="Default suite" duration-ms="15543" started-at="2022-01-31T22:09:37Z" finished-at="2022-01-31T22:09:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7118" started-at="2022-01-28T17:42:56Z" finished-at="2022-01-28T17:43:03Z">
-      <class name="com.acti.testcases.Loginpagetest">
-        <test-method status="PASS" signature="pretest()[pri:0, instance:com.acti.testcases.Loginpagetest@75bd9247]" name="pretest" is-config="true" duration-ms="6250" started-at="2022-01-28T11:42:56Z" finished-at="2022-01-28T11:43:03Z">
+    <test name="Default test" duration-ms="15543" started-at="2022-01-31T22:09:37Z" finished-at="2022-01-31T22:09:53Z">
+      <class name="com.acti.testcases.Testcreatecustomer">
+        <test-method status="PASS" signature="pretest()[pri:0, instance:com.acti.testcases.Testcreatecustomer@75bd9247]" name="pretest" is-config="true" duration-ms="7664" started-at="2022-01-31T16:09:37Z" finished-at="2022-01-31T16:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pretest -->
-        <test-method status="PASS" signature="testvalidateloginfunction()[pri:4, instance:com.acti.testcases.Loginpagetest@75bd9247]" name="testvalidateloginfunction" duration-ms="535" started-at="2022-01-28T11:43:03Z" finished-at="2022-01-28T11:43:03Z">
+        <test-method status="PASS" signature="testcreatecustomer()[pri:0, instance:com.acti.testcases.Testcreatecustomer@75bd9247]" name="testcreatecustomer" duration-ms="7833" started-at="2022-01-31T16:09:45Z" finished-at="2022-01-31T16:09:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testvalidateloginfunction -->
-        <test-method status="PASS" signature="posttest()[pri:0, instance:com.acti.testcases.Loginpagetest@75bd9247]" name="posttest" is-config="true" duration-ms="303" started-at="2022-01-28T11:43:03Z" finished-at="2022-01-28T11:43:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- posttest -->
-      </class> <!-- com.acti.testcases.Loginpagetest -->
+        </test-method> <!-- testcreatecustomer -->
+      </class> <!-- com.acti.testcases.Testcreatecustomer -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

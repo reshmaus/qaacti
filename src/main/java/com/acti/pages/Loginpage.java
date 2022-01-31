@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.acti.base.Driverscript;
+import com.acti.utils.Common;
 
 /*
  * script-loginpage
@@ -19,7 +20,7 @@ public class Loginpage extends Driverscript
 	
 	@FindBy(id="whiteBoxWithLogo")WebElement actilogo;
 	@FindBy(id="username")WebElement usernameTb;
-	@FindBy(name="pwd")WebElement passworTb;
+	@FindBy(name="pwd")WebElement passwordTb;
 	@FindBy(id="loginButton")WebElement loginbtn;
 	
 //************************page Initialization********************************************//
@@ -39,8 +40,11 @@ public class Loginpage extends Driverscript
 	
 	public void validatelogin(String username,String password)
 	{
-		usernameTb.sendKeys("username");
-		 passworTb.sendKeys("password");
+		Common.highlightelement(usernameTb);
+		usernameTb.sendKeys("admin");
+		Common.highlightelement(passwordTb);
+		 passwordTb.sendKeys("manager");
+		 Common.highlightelement(loginbtn);
 		 loginbtn.click();
 	}
 	
